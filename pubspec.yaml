@@ -1,0 +1,90 @@
+name: valley_helper
+description: "Your handy Stardew Valley helper."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - 'assets/images/dialogue_box.png'
+  - 'assets/images/ic_leah_head.png'
+  - 'assets/images/calendar.png'
+  - 'assets/images/background.jpg'
+
+  - 'assets/images/villagers/Abigail.png'
+  - 'assets/images/villagers/Alex.png'
+  - 'assets/images/villagers/Caroline.png'
+  - 'assets/images/villagers/Clint.png'
+  - 'assets/images/villagers/Demetrius.png'
+  - 'assets/images/villagers/Dwarf.png'
+  - 'assets/images/villagers/Abigail.png'
+  - 'assets/images/villagers/Alex.png'
+  - 'assets/images/villagers/Caroline.png'
+  - 'assets/images/villagers/Clint.png'
+  - 'assets/images/villagers/Demetrius.png'
+  - 'assets/images/villagers/Dwarf.png'
+  - 'assets/images/villagers/Elliott.png'
+  - 'assets/images/villagers/Evelyn.png'
+  - 'assets/images/villagers/George.png'
+  - 'assets/images/villagers/Gus.png'
+  - 'assets/images/villagers/Haley.png'
+  - 'assets/images/villagers/Harvey.png'
+  - 'assets/images/villagers/Jas.png'
+  - 'assets/images/villagers/Jodi.png'
+  - 'assets/images/villagers/Kent.png'
+  - 'assets/images/villagers/Krobus.png'
+  - 'assets/images/villagers/Leah.png'
+  - 'assets/images/villagers/Leo.png'
+  - 'assets/images/villagers/Lewis.png'
+  - 'assets/images/villagers/Linus.png'
+  - 'assets/images/villagers/Marnie.png'
+  - 'assets/images/villagers/Maru.png'
+  - 'assets/images/villagers/Pam.png'
+  - 'assets/images/villagers/Penny.png'
+  - 'assets/images/villagers/Pierre.png'
+  - 'assets/images/villagers/Robin.png'
+  - 'assets/images/villagers/Sam.png'
+  - 'assets/images/villagers/Sandy.png'
+  - 'assets/images/villagers/Sebastian.png'
+  - 'assets/images/villagers/Shane.png'
+  - 'assets/images/villagers/Vincent.png'
+  - 'assets/images/villagers/Willy.png'
+  - 'assets/images/villagers/Wizard.png'
+
+  - 'assets/images/small_icons/items/24px-Amethyst.png'
+  - 'assets/images/small_icons/items/24px-Banana_Pudding.png'
+  - 'assets/images/small_icons/items/24px-Blackberry_Cobbler.png'
+  - 'assets/images/small_icons/items/24px-Chocolate_Cake.png'
+  - 'assets/images/small_icons/items/24px-Monster_Compendium.png'
+  - 'assets/images/small_icons/items/24px-Pufferfish.png'
+  - 'assets/images/small_icons/items/24px-Pumpkin.png'
+  - 'assets/images/small_icons/items/24px-Spicy_Eel.png'
+  
+  - 'assets/images/small_icons/seasons/24px-Spring.png'
+  - 'assets/images/small_icons/seasons/24px-Summer.png'
+  - 'assets/images/small_icons/seasons/24px-Fall.png'
+
+  - 'assets/images/small_icons/villagers/Caroline_Icon.png'
+  - 'assets/images/small_icons/villagers/Pierre_Icon.png'
+  - 'assets/images/small_icons/villagers/Evelyn_Icon.png'
+  - 'assets/images/small_icons/villagers/George_Icon.png'
+  
+  fonts:
+  - family: SDV
+    fonts:
+    - asset: 'assets/fonts/Stardew_Valley.ttf'
+  - family: Arial
+    fonts:
+    - asset: 'assets/fonts/Arial.ttf'
